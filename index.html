@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <!-- My Style -->
     <link rel="stylesheet" href="style.css">
-    <title>Template</title>
+    <title>Infinite Scroll</title>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <h2>hello 2</h2>
+    <h1>Unsplash API - Infinite Scroll</h1>
+    <!-- loader -->
+    <div class="loader" id="loader" hidden>
+        <img src="loader.svg" alt="loading">
+    </div>
+    <!-- Image container -->
+    <div class="image-container" id="image-container">
+        <img src="https://images.unsplash.com/photo-1633456083106-c443c559730f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1633456083106-c443c559730f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1633456083106-c443c559730f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" alt="">
+    </div>
     <!-- My Script -->
     <script src="app.js"></script>
 </body>
